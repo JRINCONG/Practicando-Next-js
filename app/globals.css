@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: black;
+
+   
+  }
+}
+
+body {
+  color: #fff;
+ padding: 20px;
+  }
